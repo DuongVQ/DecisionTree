@@ -66,3 +66,14 @@ for x in kq:
         print("Có")
     else:
         print("Không")
+
+
+'''
+Entropy: đo mức độ đồng nhất của một tập hợp các nhãn
+- nếu tất cả các nhãn đồng nhất thì entropy = 0
+- nếu các mẫu chia đều thì entropy = 1
+
+        Entropy = -p1*log2(p1) - p2*log2(p2) - ... - pn*log2(pn)
+
+- https://www.saedsayad.com/decision_tree.htm
+'''
